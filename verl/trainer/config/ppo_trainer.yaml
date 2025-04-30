@@ -102,6 +102,7 @@ actor_rollout_ref:
       temperature: 0
       n: 1
       do_sample: False # default eager for validation
+    seed: 42
 
 critic:
   strategy: fsdp
